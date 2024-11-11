@@ -1,0 +1,107 @@
+h1 {
+color:#FFFFFF;
+}
+
+.ma-classe {
+color:#FFFFFF;
+}
+h2{
+  text-align:center;
+  background-color:#0B433D;
+  box-shadow: 5px 5px 15px black;
+}
+
+p{
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+body {
+  color: #FFFFFF;
+  background-color: #969696;
+}
+
+span {
+display: flex;
+justify-content: center;
+}
+
+.conteneur{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #242424;
+text-decoration: none;
+min-height: 80px;
+}
+
+.conteneur div{
+height: 40px;
+width: 350px;
+background: #0B433D;
+margin: 20px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 5px 5px 15px black;
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.container h2 {
+margin-bottom: 10px;
+}
+
+.container p {
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 1200px) {
+  p {
+    color:deeppink;
+  }
+  body {
+    color: deeppink;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .conteneur {
+    flex-direction: column;
+  }
+}
+
+p and body {
+overflow: scroll;
+}
+
+style {
+  .link { color: #FF0000; } /* CSS link color */
+}
+
+h2{
+text-align: center;
+background-color: #0B433D;
+}
+
+h3 {
+  text-align: center;
+}
